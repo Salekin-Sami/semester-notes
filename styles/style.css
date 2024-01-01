@@ -116,4 +116,16 @@ img {
     font-size: 16px;
     /* Adjust other styles as needed */
   }
+  #home h1 {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .topnav {
+    padding: 6px;
+  }
+
+  .topnav a {
+    padding: 6px 10px;
+  }
 }
