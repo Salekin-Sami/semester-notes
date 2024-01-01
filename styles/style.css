@@ -1,0 +1,51 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Roboto",sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  }
+  h1 {
+    font-family:'Gill Sans',  sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  p,
+  li,
+  h3,a {
+    font-size: 23px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+  }
+  html {
+    background-color: #E6E6BB;
+    background:  linear-gradient(rgba(50, 70, 120, 0.7), rgba(20, 40, 80, 0.7)), url("../images/cellular-comm.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  html.scrolled:before {
+    background: linear-gradient(rgba(50, 70, 120, 0.9), rgba(20, 40, 80, 0.9)), url("../images/cellular-comm.jpg");
+    background-size: cover;
+    transition: background 0.5s ease-in-out; /* Transition for smooth effect */
+}
+  h1 {
+    margin: 0;
+    padding: 40px 20px 40px 20px;
+    color: #00539f;
+    text-shadow: 0.5px 1px 0.5px black;
+  }
+
+  body {
+    width: 1000px;
+    margin: 35px auto;
+    background-color: #5acbf4;
+    background-size: 100% 100%;
+    padding: 0 40px 40px 40px;
+    border: 10px slateblue black;
+    position: relative;
+  }
+  
+  img {
+    display: block;
+    width: 900px;
+    margin: auto auto;
+  }
