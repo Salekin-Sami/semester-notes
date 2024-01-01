@@ -1,40 +1,219 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link href="styles/style.css" rel="stylesheet" />
-    <link
-    href="https://fonts.google.com/specimen/Roboto"
-    rel="stylesheet" />
-  
-    <title>Cellular Communication</title>
-  </head>
-  <body>
-    <h1>Cellular and Wireless Communication</h1>
-    <img src="images/1920px-Gsm_structures.svg.png" alt="GSM Architecture" />
-    <h3>Defination</h3>
-    <p>A cellular network or mobile network is a telecommunications network where the link to and from end nodes is wireless and the network is distributed over land areas called cells, each served by at least one fixed-location transceiver. These base stations provide the cell with the network coverage which can be used for transmission of voice, data, and other types of content. A cell typically uses a different set of frequencies from neighboring cells, to avoid interference and provide guaranteed service quality within each cell.</p>
 
-    <h3>Cellular networks offer a number of desirable features:</h3>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Playfair+Display?sort=popularity" />
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto" />
+  <title>Semester Resources</title>
+</head>
 
+<body>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#DSA">DSA</a>
+    <a href="#Cellular">Cellular &amp Wireless Network</a>
+    <a href="#signal">Signal &amp System</a>
+  </div>
+
+  <div id="home">
+    <h1>Welcome to the Semester Resources</h1>
+    <p>
+      This semester covers various topics in cellular communication, signal and system, and data structure and algorithm.
+      Explore the navigation bar to access specific resources.
+    </p>
+  </div>
+
+  <div id="cellular">
+    <h2><strong>Cellular and Wireless Network</strong> </h2>
     <ul>
-        <li>More capacity than a single large transmitter, since the same frequency can be used for multiple links as long as they are in different cells</li>
-        <li>Mobile devices use less power than with a single transmitter or satellite since the cell towers are closer</li>
-        <li>Larger coverage area than a single terrestrial transmitter, since additional cell towers can be added indefinitely and are not limited by the horizon</li>
-        <li>Capability of utilizing higher frequency signals (and thus more available bandwidth / faster data rates) that are not able to propagate at long distances</li>
-        
+      <li>Introduction to Cellular Mobile Radio Systems</li>
+      <li>Cellular Engineering Fundamentals</li>
+      <li>Interference and System Capacity</li>
+      <li>Intelligent Cell Concept and Applications</li>
+      <li>Mobile Radio Propagation (Large-Scale) Model</li>
+      <li>Mobile Radio Propagation (Small-Scale) Model</li>
+      <li>Mobile Data Networks</li>
+      <li>Wireless Systems and Standards</li>
+      <!-- Add more chapters as needed -->
     </ul>
+  </div>
+  
+  
+  <div id="signal">
+    <h2>Signal and System</h2>
+    <ul>
+      <li><strong>Introduction</strong>
+        <ul>
+          <li>Definition of signals and systems</li>
+          <li>Overview of specific systems</li>
+          <li>Classification of signals</li>
+          <li>Basic operation on signals</li>
+          <li>Elementary signals</li>
+          <li>Properties of systems</li>
+        </ul>
+      </li>
+      <li><strong>Time Domain Representation of LTI System</strong>
+        <ul>
+          <li>Impulse Response (IR) representation of LTI system and its properties</li>
+          <li>Differential and difference equation representation of LTI systems</li>
+          <li>Block diagram representations</li>
+          <li>State variable descriptions for LTI systems</li>
+        </ul>
+      </li>
+      <li><strong>Fourier Representation of Periodic Signals</strong>
+        <ul>
+          <li>Introduction</li>
+          <li>Fourier representation of four classes of signals</li>
+          <li>Discrete-time Fourier series</li>
+          <li>Fourier series</li>
+        </ul>
+      </li>
+      <li><strong>Fourier Representation of Nonperiodic Signals</strong>
+        <ul>
+          <li>Discrete-time Fourier transformation</li>
+          <li>Fourier transformation</li>
+          <li>Properties of Fourier representations</li>
+        </ul>
+      </li>
+      <li><strong>Applications of Fourier Representations</strong>
+        <ul>
+          <li>Frequency response of LTI systems</li>
+          <li>FT representation for periodic signals</li>
+          <li>Convolution and modulation with mixed signal classes</li>
+          <li>FT representation for DT signals</li>
+          <li>Sampling</li>
+          <li>Reconstruction of continuous-time signals from samples</li>
+        </ul>
+      </li>
+      <li><strong>Fourier Method of Signal Processing</strong>
+        <ul>
+          <li>DT processing of CT signals</li>
+          <li>FS representations for finite duration non-periodic signals</li>
+          <li>DTFS approximation to the Fourier transform</li>
+          <li>DTFS evaluation algorithm</li>
+        </ul>
+      </li>
+      <li><strong>Laplace Transform</strong>
+        <ul>
+          <li>Laplace transform (LT)</li>
+          <li>Unilateral LT</li>
+          <li>Inversion of LT</li>
+          <li>Solving differential equations with initial conditions</li>
+          <li>Bilateral LT</li>
+          <li>Transform analysis of systems</li>
+        </ul>
+      </li>
+      <li><strong>z-Transform</strong>
+        <ul>
+          <li>z-transform</li>
+          <li>Properties of Region of Convergence (RoC)</li>
+          <li>Properties of z-transform</li>
+          <li>Inversion of z-transform</li>
+          <li>Transform analysis of LTI system</li>
+          <li>Computational structures for implementing DT systems</li>
+          <li>Unilateral z-transform</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  
+  <div id="dsa">
+    <h2>Data Structures and Algorithms</h2>
+    <ul>
+      <li><strong>Introduction</strong>
+        <ul>
+          <li>Data types and data structures</li>
+          <li>Data structure operations</li>
+          <li>Introduction to algorithms</li>
+          <li>Performance analysis</li>
+        </ul>
+      </li>
+      <li><strong>Arrays, Records, and Pointers</strong>
+        <ul>
+          <li>Linear arrays</li>
+          <li>Relationships of arrays</li>
+          <li>Operation on arrays</li>
+          <li>Multidimensional arrays</li>
+          <li>Pointer arrays</li>
+          <li>Record structures</li>
+          <li>Representation of records</li>
+          <li>Sparse matrices</li>
+        </ul>
+      </li>
+      <li><strong>Linked List</strong>
+        <ul>
+          <li>Linked lists</li>
+          <li>Representation of linked lists</li>
+          <li>Traversing and searching a linked list</li>
+          <li>Doubly linked list and dynamic storage management</li>
+          <li>Generalized list</li>
+          <li>Garbage collection and compaction</li>
+        </ul>
+      </li>
+      <li><strong>Stacks, Queues, and Recursion</strong>
+        <ul>
+          <li>Fundamentals</li>
+          <li>Different types of stacks and queues (Circular, Dequeues, etc.)</li>
+          <li>Evaluation of expressions</li>
+          <li>Recursion</li>
+          <li>Direct and indirect recursion</li>
+          <li>Depth of recursion</li>
+          <li>Implementation of recursive procedures by stacks</li>
+        </ul>
+      </li>
+      <li><strong>Trees and Graphs</strong>
+        <ul>
+          <li>Basic terminology</li>
+          <li>Binary trees</li>
+          <li>Binary tree representation</li>
+          <li>Tree traversal algorithms</li>
+          <li>Extended binary tree</li>
+          <li>Huffman codes/algorithm</li>
+          <li>Graphs</li>
+          <li>Graph representation</li>
+          <li>Shortest path algorithm and transitive closure</li>
+          <li>Traversing a graph</li>
+        </ul>
+      </li>
+      <li><strong>Sorting and Searching Algorithms</strong>
+        <ul>
+          <li>Sorting</li>
+          <li>Insertion sort</li>
+          <li>Shell sort</li>
+          <li>Heap sort</li>
+          <li>Radix sort</li>
+          <li>General method of divide and conquer method</li>
+          <li>Merge sort</li>
+          <li>Quick sort</li>
+          <li>Selection sort</li>
+          <li>Binary search</li>
+        </ul>
+      </li>
+      <li><strong>Symbol Tables</strong>
+        <ul>
+          <li>Static tree tables</li>
+          <li>Dynamic tree tables</li>
+          <li>Hash tables overflow handling</li>
+          <li>Theoretical evaluation of overflow techniques</li>
+        </ul>
+      </li>
+      <li><strong>Dynamic Programming</strong>
+        <ul>
+          <li>The general method</li>
+          <li>Multistage graphs</li>
+          <li>All pairs shortest paths</li>
+          <li>Single source shortest paths problems</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
 
-    <a href="https://en.wikipedia.org/wiki/Cellular_network">
-       See Wikipedia page of Cellular Communication
-      </a>
+  <script src="scripts/main.js"></script>
+</body>
 
-      <br>
-      <button>Change user</button>
-
-      <script src="scripts/main.js"></script>
-
-      
-  </body>
 </html>
