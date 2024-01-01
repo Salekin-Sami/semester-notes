@@ -131,23 +131,24 @@ img {
     li,
     h3,
     a {
-      font-size: 12px;
+      font-size: 13px;
       font-family: "Roboto", sans-serif;
       line-height: 1.6;
       letter-spacing: 0.2px;
       font-style: normal;
       font-weight: 400;
       font-variant: common-ligatures;
+      padding: 0px 0px 0px 0px;
     }
   .topnav {
     position: relative;
     transform: translateX(-50%);
-    width: 125%;
+    width: 115%;
     max-height: auto;
     max-width: auto;
-    background-color: #24b37c;
+    background-color: #39975a;
     overflow: auto;
-    z-index: 1000;
+    z-index: 100;
     display: flex;
     justify-content: space-around; /* Center the links with equal space around them */
     align-items: center; /* Align vertically in the center */
@@ -157,11 +158,12 @@ img {
     float: center;
     width: auto;
     height: auto;
-    font-size: 14px;
+    font-size: 11.5px;
+    font-weight: 500;
     box-sizing: border-box;
     color: #f2f2f2;
     text-align: center;
-    text-decoration: none;
+    text-decoration: crimson;
     justify-content: space-around;
     padding: 10px 10px 10px 10px; /* Adjust padding as needed */
   }
@@ -180,5 +182,21 @@ img {
     font-size: 14.5px;
   }
 
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    width: 200%;
+    height: 85%;
+    max-width: 1000px;
+    background: radial-gradient(ellipse at center, rgba(88, 133, 255, 0.794) 0%, rgba(9, 25, 62, 0.7) 100%),
+    url("../images/First-energy-2.jpg");
+    margin: 0 auto;
+    background-size: cover;
+    padding: 30px 30px;
+    padding-top: 30px;
+    position: relative;
+    overflow: auto;
+    border: none;
+  }
 
 }
