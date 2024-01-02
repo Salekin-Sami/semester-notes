@@ -69,7 +69,7 @@ img {
 #home,
 #cellular,
 #signal,
-#dsa {
+#dsa ,#User{
   padding: 30px;
   background-color: #c2f2ea;
   margin-top: 20px;
@@ -121,7 +121,7 @@ img {
   #home,
     #cellular,
     #signal,
-    #dsa {
+    #dsa #User{
       padding: 10px;
       background-color: #c2f2ea;
       margin-top: 15px;
