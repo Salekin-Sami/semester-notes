@@ -5,12 +5,22 @@ h3,
 a {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
-  line-height: 1.8;
-  letter-spacing: 0.1px;
+  line-height: 1.4;
+  letter-spacing: 0px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-variant: normal;
   
+}
+
+h2 {
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+  letter-spacing: -2%;
+  font-style: bold;
+  font-weight: 400;
+  font-variant: normal;
 }
 
 html {
@@ -30,6 +40,8 @@ html {
 h1 {
   font-family: 'Pacifico', sans-serif;
   font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -2%;
   text-align: center;
   margin: 0;
   padding: 20px 10px;
@@ -129,17 +141,26 @@ img {
       word-spacing: normal;
       width: fit-content;
     }
+
+    h2,h3 {
+      font-size: 15px;
+      font-family: "Roboto", sans-serif;
+      line-height: 1.2;
+      letter-spacing: -2%;
+      font-style: bold;
+      font-weight: 500;
+      font-variant: normal;
+    }
   
     p,
     li,
-    h3,
     a {
       font-size: 13px;
       font-family: "Roboto", sans-serif;
-      line-height: 1.6;
-      letter-spacing: 0.2px;
+      line-height: 1.4;
+      letter-spacing: 0px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 300;
       font-variant: common-ligatures;
       padding: 0px 0px 0px 0px;
     }
