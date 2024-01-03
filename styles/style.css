@@ -8,7 +8,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.2px;
   font-style: normal;
-  font-weight: 390;
+  font-weight: 380;
   font-variant: normal;
   
 }
@@ -19,7 +19,7 @@ h2 {
   line-height: 1.2;
   letter-spacing: -2%;
   font-style: bold;
-  font-weight: 400;
+  font-weight: 700;
   font-variant: normal;
 }
 
@@ -45,12 +45,12 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 10px;
-  color: #00539f;
+  color: #f6251e;
   text-rendering: optimizeSpeed;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.2);
   background-color: #f8f8f8;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -63,8 +63,8 @@ body {
   background-color: #b6e8f0;
   background-size: cover;
   padding: 40px;
-  padding-top: 30px;
-  border: 5px solid rgb(95, 232, 147);
+  padding-top: 40px;
+  border: 5px solid rgb(66, 192, 114);
   position: relative;
   overflow: auto;
   border-radius: 15px;
@@ -86,7 +86,7 @@ img {
   background-color: #c2f2ea;
   margin-top: 20px;
   border-radius: 15px;
-  background-blend-mode: color-burn;
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
 .topnav {
@@ -134,7 +134,7 @@ img {
     #cellular,
     #signal,
     #dsa #User{
-      padding: 10px;
+      padding: 20px;
       background-color: #c2f2ea;
       margin-top: 15px;
       border-radius: 10px;
@@ -143,26 +143,27 @@ img {
     }
 
     h2,h3 {
-      font-size: 15px;
+      font-size: 18px;
       font-family: "Roboto", sans-serif;
       line-height: 1.2;
       letter-spacing: -2%;
       font-style: bold;
-      font-weight: 500;
+      font-weight: 700;
       font-variant: normal;
     }
   
     p,
     li,
     a {
-      font-size: 13px;
+      font-size: 14px;
       font-family: "Roboto", sans-serif;
-      line-height: 1.5;
+      line-height: 1.6;
       letter-spacing: 0.3px;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 350;
       font-variant: common-ligatures;
-      padding: 0px 0px 0px 0px;
+      padding: 10px 10px 0px 0px;
+  
     }
   .topnav {
     position: relative;
